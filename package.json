@@ -1,0 +1,30 @@
+{
+  "name": "tb-wxmp-mock",
+  "version": "1.0.0",
+  "description": "Mock server for TB WeChat MiniProgram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BkunS/TB-WXMP-mock-server.git"
+  },
+  "author": "BkunS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BkunS/TB-WXMP-mock-server/issues"
+  },
+  "homepage": "https://github.com/BkunS/TB-WXMP-mock-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-openapi": "^1.2.0",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
