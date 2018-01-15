@@ -1,7 +1,7 @@
 const categoriesPath = (categoriesService) => {
-  const GET = (req, res, next) => {
+  const GET = (req, res) => {
     res.status(200).json(categoriesService.getMainCategories());
-  }
+  };
  
   GET.apiDoc = {
     summary: 'Returns category lists.',

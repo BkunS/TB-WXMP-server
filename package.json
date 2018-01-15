@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "test": "mocha ./tests/**/*.test.js",
+    "precommit": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,10 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "husky": "^0.14.3",
+    "mocha": "^4.1.0",
     "nodemon": "^1.14.11"
   }
 }

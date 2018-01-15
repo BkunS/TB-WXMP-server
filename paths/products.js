@@ -1,7 +1,7 @@
 const productsPath = (productsService) => {
-  const GET = (req, res, next) => {
+  const GET = (req, res) => {
     res.status(200).json(productsService.getProducts());
-  }
+  };
  
   GET.apiDoc = {
     summary: 'Returns product lists.',

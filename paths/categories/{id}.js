@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 const categoriesByIdPath = (categoriesService) => {
-  const GET = (req, res, next) => {
+  const GET = (req, res) => {
     const id = _.get(req, 'params.id');
     if (id) {
       res.status(200).json(categoriesService.getCategoryById(id));
@@ -10,7 +10,7 @@ const categoriesByIdPath = (categoriesService) => {
         Error: 'No id.'
       });
     }
-  }
+  };
  
   GET.apiDoc = {
     summary: 'Returns category by Id.',

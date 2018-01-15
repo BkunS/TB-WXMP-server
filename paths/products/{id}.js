@@ -1,10 +1,10 @@
 const _ = require('lodash');
 
 const productByIdPath = (productsService) => {
-  const GET = (req, res, next) => {
+  const GET = (req, res) => {
     const id = _.get(req, 'params.id');
     res.status(200).json(productsService.getProductById(id));
-  }
+  };
  
   GET.apiDoc = {
     summary: 'Returns one product.',
