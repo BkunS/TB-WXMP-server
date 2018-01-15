@@ -1,0 +1,38 @@
+{
+  "1": {
+    "id": "Aw0HDg0OAQEHDQgOBAACBQ",
+    "name": "clothes",
+    "displayName": "服饰",
+    "image": ""
+  },
+  "2": {
+    "id": "CwwLCQILDAkFAgQABA4BDw",
+    "name": "handbags",
+    "displayName": "手袋",
+    "image": ""
+  },
+  "3": {
+    "id": "DgUACwIDAgsHAAYPBAQMAA",
+    "name": "shoes",
+    "displayName": "女鞋",
+    "image": ""
+  },
+  "4": {
+    "id": "BQQPDA8CAwkNCAIJBAANAQ",
+    "name": "accessories",
+    "displayName": "配饰",
+    "image": ""
+  },
+  "5": {
+    "id": "DgsGAQELCQQDBA0HBAQFDQ",
+    "name": "jeleries",
+    "displayName": "珠宝",
+    "image": ""
+  },
+  "6": {
+    "id": "Cg0MCwIEAg8PDQ4CBAsLCA",
+    "name": "shoulderBags",
+    "displayName": "肩背包",
+    "image": ""
+  }
+}
