@@ -7,6 +7,9 @@ const apiDoc = {
     title: 'wxmp-server',
     version: '1.0.0'
   },
+  schemes: ['http'],
+  consumes: ['application/json'],
+  produces: ['application/json'],
   definitions: {
     Product: {
       type: 'object',
@@ -45,6 +48,25 @@ const apiDoc = {
           type: 'string'
         },
         image: {
+          type: 'string'
+        }
+      }
+    },
+    Inventory: {
+      type: 'object',
+      properties: {
+        inventory: {
+          type: 'number'
+        }
+      }
+    },
+    Error: {
+      type: 'object',
+      properties: {
+        name: {
+          type: 'string'
+        },
+        message: {
           type: 'string'
         }
       }

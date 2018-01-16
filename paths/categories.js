@@ -27,6 +27,7 @@ const categoriesPath = (categoriesService) => {
       default: {
         description: 'An error occurred',
         schema: {
+          $ref: '#/definitions/Error',
           additionalProperties: true
         }
       }

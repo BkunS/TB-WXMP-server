@@ -50,6 +50,7 @@ const categoryByIdPath = (categoriesService) => {
       default: {
         description: 'An error occurred',
         schema: {
+          $ref: '#/definitions/Error',
           additionalProperties: true
         }
       }

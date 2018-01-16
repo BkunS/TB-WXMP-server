@@ -1,0 +1,9 @@
+{
+  "Inventory": {
+    "properties": {
+      "inventory": {
+        "type": "number"
+      }
+    }
+  }
+}

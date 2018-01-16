@@ -51,6 +51,7 @@ const productByIdPath = (productsService) => {
       default: {
         description: 'An error occurred',
         schema: {
+          $ref: '#/definitions/Error',
           additionalProperties: true
         }
       }
