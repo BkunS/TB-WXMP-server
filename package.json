@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/BkunS/TB-WXMP-mock-server#readme",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "express": "^4.16.2",
     "express-openapi": "^1.2.0",
     "lodash": "^4.17.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "uid2": "0.0.3",
+    "usergrid": "~0.10.11"
   },
   "devDependencies": {
     "eslint": "^4.15.0",

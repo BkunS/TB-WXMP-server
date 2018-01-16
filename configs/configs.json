@@ -1,0 +1,9 @@
+{
+  "baas": {
+    "orgName": "toryburch",
+    "appName": "dev",
+    "uri": "https://baas-ug000sr.apigee.net",
+    "clientId": "YXA6CXHevFTpEeeKfhKymT4EhA",
+    "clientSecret": "YXA6V_1BBr-gaZy4JKnsHlqR2F34EuA"
+  }
+}

@@ -1,29 +1,33 @@
 'use strict';
 
-const errorResponse = require('../helpers/errors').errorResponse;
+const _ = require('lodash');
+const errors = require('../../../helpers/errors');
 
-const productsPath = (productsService) => {
+const errorResponse = errors.errorResponse;
+
+const itemsPath = (cartsService) => {
   const GET = (req, res) => {
-    productsService.getProducts()
-      .then((ret) => {
-        res.status(200).json(ret);
+    const cartId = _.get(req, 'params.id');
+    cartsService.getItems(cartId)
+      .then((items) => {
+        res.status(200).json(items);
       })
       .catch((error) => {
         errorResponse(res, error);
       });
   };
- 
+
   GET.apiDoc = {
-    summary: 'Returns product lists.',
-    operationId: 'getProducts',
+    summary: 'Get items.',
+    operationId: 'getItems',
     parameters: [],
     responses: {
       200: {
-        description: 'The list of products.',
+        description: 'List of items.',
         schema: {
           type: 'array',
           items: {
-            $ref: '#/definitions/Product'
+            $ref: '#/definitions/Item'
           }
         }
       },
@@ -43,4 +47,4 @@ const productsPath = (productsService) => {
   return operations;
 };
 
-module.exports = productsPath;
+module.exports = itemsPath;

@@ -1,20 +1,27 @@
+'use strict';
+
 const express = require('express');
 const openapi = require('express-openapi');
-const productsService = require('./services/productsService');
 const categoriesService = require('./services/categoriesService');
+const cartsService = require('./services/cartsService');
+const productsService = require('./services/productsService');
+const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
 const path = require('path');
  
 const app = express();
+
 openapi.initialize({
   app,
   apiDoc: apiDoc,
   dependencies: {
     productsService: productsService,
-    categoriesService: categoriesService
+    categoriesService: categoriesService,
+    cartsService: cartsService,
+    wishlistsService: wishlistsService
   },
   paths: [
-    path.resolve(__dirname, './paths'),
+    path.resolve(__dirname, 'paths'),
   ]
 });
  

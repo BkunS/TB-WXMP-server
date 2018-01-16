@@ -1,30 +1,50 @@
-const _ = require('lodash');
+'use strict';
 
-const categoriesByIdPath = (categoriesService) => {
+const Promise = require('bluebird');
+const _ = require('lodash');
+const errors = require('../../helpers/errors');
+
+const errorResponse = errors.errorResponse;
+const BadRequestError = errors.BadRequestError;
+
+const categoryByIdPath = (categoriesService) => {
   const GET = (req, res) => {
     const id = _.get(req, 'params.id');
-    if (id) {
-      res.status(200).json(categoriesService.getCategoryById(id));
+    let promises;
+    if (!id) {
+      promises = new Promise.reject(
+        new BadRequestError(`No id is found in request`)
+      );
     } else {
-      res.status(400).json({
-        Error: 'No id.'
-      });
+      promises = categoriesService.getCategoryById(id);
     }
+    
+    promises
+      .then((ret) => {
+        res.status(200).json(ret);
+      })
+      .catch((error) => {
+        errorResponse(res, error);
+      });
   };
  
   GET.apiDoc = {
     summary: 'Returns category by Id.',
     operationId: 'getCategoryById',
     parameters: [
+      {
+        in: 'path',
+        name: 'id',
+        description: 'categoryId',
+        required: true,
+        type: 'string'
+      }
     ],
     responses: {
       200: {
         description: 'Specific category.',
         schema: {
-          type: 'object',
-          items: {
-            $ref: '#/definitions/Category'
-          }
+          $ref: '#/definitions/Category'
         }
       },
       default: {
@@ -43,4 +63,4 @@ const categoriesByIdPath = (categoriesService) => {
   return operations;
 };
 
-module.exports = categoriesByIdPath;
+module.exports = categoryByIdPath;

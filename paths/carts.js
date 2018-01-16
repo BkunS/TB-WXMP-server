@@ -1,10 +1,13 @@
 'use strict';
 
+const _ = require('lodash');
 const errorResponse = require('../helpers/errors').errorResponse;
 
-const categoriesPath = (categoriesService) => {
-  const GET = (req, res) => {
-    categoriesService.getMainCategories()
+const cartsPath = (cartsService) => {
+  const POST = (req, res) => {
+    const data = _.get(req, 'params.data', {});
+    
+    cartsService.putCart(data)
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -13,15 +16,15 @@ const categoriesPath = (categoriesService) => {
       });
   };
  
-  GET.apiDoc = {
-    summary: 'Returns category lists.',
-    operationId: 'getCategories',
+  POST.apiDoc = {
+    summary: 'Returns new created cart.',
+    operationId: 'postCart',
     parameters: [],
     responses: {
       200: {
-        description: 'The list of categories.',
+        description: 'A new cart.',
         schema: {
-          $ref: '#/definitions/Categories'
+          $ref: '#/definitions/Cart'
         }
       },
       default: {
@@ -34,10 +37,10 @@ const categoriesPath = (categoriesService) => {
   };
 
   let operations = {
-    GET
+    POST
   };
  
   return operations;
 };
 
-module.exports = categoriesPath;
+module.exports = cartsPath;
