@@ -4,7 +4,6 @@ const Promise = require('bluebird');
 const _ = require('lodash');
 const fs = require('fs');
 const inventories = require('../dao/inventories');
-const categories = require('../dao/categories');
 const errors = require('../helpers/errors');
 
 const NotFoundError = errors.NotFoundError;

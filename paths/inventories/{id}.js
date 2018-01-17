@@ -41,7 +41,7 @@ const inventoryByIdPath = (inventoriesService) => {
         new BadRequestError(`No id is found in request`)
       );
     } else {
-      promises = inventoriesService.putInventoriesById(id, data);
+      promises = inventoriesService.putInventoriesById(id, query);
     }
 
     promises
@@ -51,7 +51,7 @@ const inventoryByIdPath = (inventoriesService) => {
       .catch((error) => {
         errorResponse(res, error);
       });
-  }
+  };
  
   GET.apiDoc = {
     summary: 'Returns inventory by Id.',
