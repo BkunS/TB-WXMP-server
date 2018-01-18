@@ -28,7 +28,7 @@ const inventoriesService = {
     }
   },
 
-  putInventoriesById: (id, query) => {
+  putInventoriesById: (id, data) => {
     if (!id) {
       return Promise.reject(
         new BadRequestError(`No productId has been provided to update inventory.`)
@@ -41,10 +41,9 @@ const inventoriesService = {
         new NotFoundError(`No inventory data of productId: ${id} has been found.`)
       );
     } else {
-      const newInventory = _.get(query, 'inventory');
-      console.log(newInventory);
+      const newInventory = +_.get(data, 'inventory');
       _.set(inventories, `${id}`, newInventory);
-      return Promise.resolve({ inventory: +newInventory });
+      return Promise.resolve({ inventory: newInventory });
     }
   },
 };

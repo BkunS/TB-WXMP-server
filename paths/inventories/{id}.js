@@ -30,10 +30,8 @@ const inventoryByIdPath = (inventoriesService) => {
   };
 
   const PUT = (req, res) => {
-    console.log(req);
     const id = _.get(req, 'params.id');
-    const query = _.get(req, 'query');
-    const data = _.get(req, 'params.data');
+    const data = _.get(req, 'body');
     let promises;
 
     if (!id) {
@@ -41,7 +39,7 @@ const inventoryByIdPath = (inventoriesService) => {
         new BadRequestError(`No id is found in request`)
       );
     } else {
-      promises = inventoriesService.putInventoriesById(id, query);
+      promises = inventoriesService.putInventoriesById(id, data);
     }
 
     promises
@@ -93,21 +91,14 @@ const inventoryByIdPath = (inventoriesService) => {
         type: 'string'
       },
       {
-        in: 'query',
-        name: 'inventory',
-        description: 'New Inventory number',
-        required: false,
-        type: 'number'
-      }/*,
-      {
         in: 'body',
         name: 'data',
         description: 'Inventory Data',
-        required: true,
+        required: false,
         schema: {
-          $ref: '../../configs/schemas.json#/Inventory'
+          $ref: '#/definitions/Inventory'
         }
-      }*/
+      }
     ],
     responses: {
       200: {
