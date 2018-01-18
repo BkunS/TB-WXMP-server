@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const categoriesService = require('./services/categoriesService');
 const cartsService = require('./services/cartsService');
 const inventoriesService = require('./services/inventoriesService');
+const landingContentsService = require('./services/landingContentsService');
 const productsService = require('./services/productsService');
 const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
@@ -24,10 +25,11 @@ openapi.initialize({
     console.error(JSON.stringify(err, null, 2));
   },
   dependencies: {
-    productsService: productsService,
     categoriesService: categoriesService,
     cartsService: cartsService,
     inventoriesService: inventoriesService,
+    landingContentsService: landingContentsService,
+    productsService: productsService,
     wishlistsService: wishlistsService
   },
   paths: [

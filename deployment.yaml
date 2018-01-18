@@ -1,0 +1,18 @@
+apiVersion: extensions/v1
+kind: Deployment
+metadata:
+  name: tb-wxmp-api
+  labels:
+    app: tb-wxmp-api
+spec:
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app: tb-wxmp-api
+    spec:
+      containers:
+        - name: tb-wxmp-api
+          image: gcr.io/digital-innovation-180520/tb-wxmp-api:latest
+          ports:
+            - containerPort: 10010

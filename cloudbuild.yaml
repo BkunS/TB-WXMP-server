@@ -1,0 +1,6 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/digital-innovation-180520/tb-wxmp-api:$REVISION_ID", "-t", "gcr.io/digital-innovation-180520/tb-wxmp-api:latest", "."]
+images:
+  - "gcr.io/digital-innovation-180520/tb-wxmp-api:$REVISION_ID"
+  - "gcr.io/digital-innovation-180520/tb-wxmp-api:latest"

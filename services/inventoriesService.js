@@ -2,7 +2,7 @@
 
 const Promise = require('bluebird');
 const _ = require('lodash');
-const fs = require('fs');
+// const fs = require('fs');
 const inventories = require('../dao/inventories');
 const errors = require('../helpers/errors');
 

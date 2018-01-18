@@ -3,36 +3,36 @@
     "id": "Aw0HDg0OAQEHDQgOBAACBQ",
     "name": "clothes",
     "displayName": "服饰",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/clothCategory.jpg"
   },
   "2": {
     "id": "CwwLCQILDAkFAgQABA4BDw",
     "name": "handbags",
     "displayName": "手袋",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_6_HPMobile_TilesHandbags.jpg"
   },
   "3": {
     "id": "DgUACwIDAgsHAAYPBAQMAA",
     "name": "shoes",
     "displayName": "女鞋",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_SAS17_12.26_7_HPDesktop_TilesShoes.jpg"
   },
   "4": {
     "id": "BQQPDA8CAwkNCAIJBAANAQ",
     "name": "accessories",
     "displayName": "配饰",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_8_HPMobile_TilesAccessories.jpg"
   },
   "5": {
     "id": "DgsGAQELCQQDBA0HBAQFDQ",
     "name": "jeleries",
     "displayName": "珠宝",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_SAS17_12.26_9_HPDesktop_TilesJewelry.jpg"
   },
   "6": {
     "id": "Cg0MCwIEAg8PDQ4CBAsLCA",
     "name": "shoulderBags",
     "displayName": "肩背包",
-    "image": ""
+    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_10_HPMobile_TilesBags.jpg"
   }
 }
