@@ -9,26 +9,22 @@ const NotFoundError = errors.NotFoundError;
 
 const categoriesService = {
   getMainCategories: () => {
-    return new Promise((resolve) => {
-      resolve(mainCategories);
-    });
+    return Promise.resolve(mainCategories);
   },
 
   getCategories: () => {
-    return new Promise((resolve) => {
-      resolve(categories);
-    });
+    return Promise.resolve(categories);
   },
 
   getCategoryById: (id) => {
-    return new Promise((resolve, reject) => {
-      const ret = _.find(categories, { 'id': id });
-      if (!ret) {
-        reject(new NotFoundError(`No category of id: '${id}' has been found.`));
-      } else {
-        resolve(ret);
-      }
-    });
+    const ret = _.find(categories, { 'id': id });
+    if (!ret) {
+      return Promise.reject(
+        new NotFoundError(`No category of id: '${id}' has been found.`)
+      );
+    } else {
+      return Promise.resolve(ret);
+    }
   },
 };
  

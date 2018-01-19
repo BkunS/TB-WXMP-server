@@ -1,10 +1,10 @@
 'use strict';
 
-const errorResponse = require('../helpers/errors').errorResponse;
+const errorResponse = require('../../helpers/errors').errorResponse;
 
-const landingContentsPath = (landingContentsService) => {
+const homeContentsPath = (contentsService) => {
   const GET = (req, res) => {
-    landingContentsService.getLandingContents()
+    contentsService.getHomeContents()
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -14,14 +14,14 @@ const landingContentsPath = (landingContentsService) => {
   };
  
   GET.apiDoc = {
-    summary: 'Returns content for landing page.',
-    operationId: 'getLandingContents',
+    summary: 'Returns content for home page.',
+    operationId: 'getHomeContents',
     parameters: [],
     responses: {
       200: {
-        description: 'Content for landingp page.',
+        description: 'Content for home page.',
         schema: {
-          $ref: '#/definitions/LandingContent'
+          $ref: '#/definitions/HomeContent'
         }
       },
       default: {
@@ -41,4 +41,4 @@ const landingContentsPath = (landingContentsService) => {
   return operations;
 };
 
-module.exports = landingContentsPath;
+module.exports = homeContentsPath;

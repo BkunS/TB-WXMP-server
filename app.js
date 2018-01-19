@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const categoriesService = require('./services/categoriesService');
 const cartsService = require('./services/cartsService');
 const inventoriesService = require('./services/inventoriesService');
-const landingContentsService = require('./services/landingContentsService');
+const contentsService = require('./services/contentsService');
 const productsService = require('./services/productsService');
 const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
@@ -28,7 +28,7 @@ openapi.initialize({
     categoriesService: categoriesService,
     cartsService: cartsService,
     inventoriesService: inventoriesService,
-    landingContentsService: landingContentsService,
+    contentsService: contentsService,
     productsService: productsService,
     wishlistsService: wishlistsService
   },
