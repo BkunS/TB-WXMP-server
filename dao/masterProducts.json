@@ -2,11 +2,12 @@
   {
     "masterId": "CQAGDw4KCgoMCQQKBAcDBg",
     "name": "Minnie Travel Ballet flat, Leather",
-    "displayName": "Minnie Travel 芭蕾平底鞋",
+    "displayColorName": "Minnie Travel 芭蕾平底鞋",
     "category": "shoes",
     "categoryId": "DgUACwIDAgsHAAYPBAQMAA",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "silver",
         "displayColorName": "银色",
         "images": [],
@@ -37,9 +38,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "black",
-        "displayName": "黑色",
+        "displayColorName": "黑色",
         "images": [],
         "sizes": {
           "4": {
@@ -68,9 +70,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -99,7 +102,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [1799],
     "salePriceRange": [1799],
     "images": [
@@ -116,11 +119,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -148,9 +152,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -188,9 +193,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -230,7 +236,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -240,11 +246,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -272,9 +279,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -312,9 +320,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -354,7 +363,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -364,11 +373,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -396,9 +406,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -436,9 +447,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -478,7 +490,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -488,11 +500,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -520,9 +533,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -560,9 +574,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -602,7 +617,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -612,11 +627,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -644,9 +660,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -684,9 +701,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -726,7 +744,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -736,11 +754,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-    "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -768,9 +787,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -808,9 +828,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -850,7 +871,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
@@ -860,11 +881,12 @@
   {
     "masterId": "",
     "name": "",
-    "displayName": "",
+    "displayColorName": "",
     "category": "",
     "categoryId": "",
-   "variations": {
-      "1": {
+    "variations": [
+      {
+        "index": 0,
         "color": "",
         "displayColorName": "",
         "images": [],
@@ -892,9 +914,10 @@
           }
         }
       },
-      "2": {
+      {
+        "index": 1,
         "color": "",
-        "displayName": "",
+        "displayColorName": "",
         "images": [],
         "sizes": {
           "4": {
@@ -932,9 +955,10 @@
           }
         }
       },
-      "3": {
+      {
+        "index": 2,
         "color": "grey",
-        "displayName": "灰色",
+        "displayColorName": "灰色",
         "images": [],
         "sizes": {
           "4": {
@@ -974,7 +998,7 @@
           }
         }
       }
-    },
+    ],
     "priceRange": [],
     "salePriceRange": [],
     "images": ["", ""],
