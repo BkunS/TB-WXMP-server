@@ -18,6 +18,11 @@ const contentsService = {
     return Promise.resolve(pdpPage);
   },
 
+  getCartContents: () => {
+    const { cartPage } = contents;
+    return Promise.resolve(cartPage);
+  },
+
   getCategoryContentsById: (id) => {
     const { categories } = contents;
     let ret = _.get(categories, id);

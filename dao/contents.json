@@ -46,5 +46,8 @@
   },
   "pdpPage": {
     "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png"
+  },
+  "cartPage": {
+    "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png"
   }
 }

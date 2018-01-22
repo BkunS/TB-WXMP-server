@@ -2,105 +2,151 @@
   {
     "masterId": "CQAGDw4KCgoMCQQKBAcDBg",
     "name": "Minnie Travel Ballet flat, Leather",
-    "displayColorName": "Minnie Travel 芭蕾平底鞋",
+    "displayName": "Minnie Travel 芭蕾平底鞋",
     "category": "shoes",
     "categoryId": "DgUACwIDAgsHAAYPBAQMAA",
     "variations": [
       {
         "index": 0,
-        "color": "silver",
-        "displayColorName": "银色",
-        "images": [],
-        "sizes": {
-          "4": {
+        "color": "black",
+        "colorHex": "#101216",
+        "colorName": "黑色",
+        "images": [
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_B?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_D?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_F?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_G?$mainline_pdp_desktop$"
+        ],
+        "sizes": [
+          {
+            "size": "4",
             "id": "AAsHDgoLDgcNCwcCBAABBA"
           },
-          "5": {
+          {
+            "size": "5",
             "id": "Aw0EDQAACwIOBgkNBA4BCQ"
           },
-          "6": {
+          {
+            "size": "6",
             "id": "AgYADQQJDQMACg4FBA8EAA"
           },
-          "7": {
+          {
+            "size": "7",
             "id": "CAEEDgsGDwUHAgYPBAYECw"
           },
-          "8": {
+          {
+            "size": "8",
             "id": "DgUMCQMBCwUGBggPBAkHBA"
           },
-          "9": {
+          {
+            "size": "9",
             "id": "DgALAgQOAgEHDQoHBAYGDA"
           },
-          "10": {
+          {
+            "size": "10",
             "id": "CAIBAQYHCgsMDAAEBAsLAg"
           },
-          "11": {
+          {
+            "size": "11",
             "id": "DwEGCQAGAAcEDg8KBAUCDg"
           }
-        }
+        ]
       },
       {
         "index": 1,
-        "color": "black",
-        "displayColorName": "黑色",
-        "images": [],
-        "sizes": {
-          "4": {
+        "color": "frenchGrey",
+        "colorHex": "#ab968b",
+        "colorName": "法国灰",
+        "images": [
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021_B?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021_C?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021_D?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021_F?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_021_G?$mainline_pdp_desktop$"
+        ],
+        "sizes": [
+          {
+            "size": "4",
             "id": "AAUADQAECw4DCwsKBAcIBQ"
           },
-          "5": {
+          {
+            "size": "5",
             "id": "DwkBBAMCBwwJDA8BBAMJAw"
           },
-          "6": {
+          {
+            "size": "6",
             "id": "CwUCDgUFAQwJCgMGBAcLCg"
           },
-          "7": {
+          {
+            "size": "7",
             "id": "CAsEBQgBCAcODQoPBAcBAw"
           },
-          "8": {
+          {
+            "size": "8",
             "id": "AQsLDAQCBwgKDw8JBAcHCQ"
           },
-          "9": {
+          {
+            "size": "9",
             "id": "BQwCBgYBCQoMDg4JBAoJCg"
           },
-          "10": {
+          {
+            "size": "10",
             "id": "AgsGCwcNBwMKBgIHBAQBBQ"
           },
-          "11": {
+          {
+            "size": "11",
             "id": "CwQLDAsBCQkKCA4JBAoCAQ"
           }
-        }
+        ]
       },
       {
         "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
+        "color": "lightOak",
+        "colorHex": "#cc936d",
+        "colorName": "浅橡木",
+        "images": [
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_254?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_254_B?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_254_D?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_254_F?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_254_G?$mainline_pdp_desktop$"
+        ],
+        "sizes": [
+          {
+            "size": "4",
             "id": "DwwICwsGDgIADQIJBAoLDw"
           },
-          "5": {
+          {
+            "size": "5",
             "id": "CAoODAcGDgwKCQYIBAQFDA"
           },
-          "6": {
+          {
+            "size": "6",
             "id": "AgsLBAYNDg0MDAsKBAcBDw"
           },
-          "7": {
+          {
+            "size": "7",
             "id": "DgYKAAAFDQgECgMNBAIPAw"
           },
-          "8": {
+          {
+            "size": "8",
             "id": "BwkFDwsLAQ4GDwoDBAQPDw"
           },
-          "9": {
+          {
+            "size": "9",
             "id": "DAMEBAQBAAENBQ0CBAwDCQ"
           },
-          "10": {
+          {
+            "size": "10",
             "id": "DQcEAwQNAAIECQEABA0DBw"
           },
-          "11": {
+          {
+            "size": "11",
             "id": "CAwIDw0CDg0EAQ0PBAYFAw"
           }
-        }
+        ]
       }
     ],
     "priceRange": [1799],
@@ -128,29 +174,40 @@
         "color": "",
         "displayColorName": "",
         "images": [],
-        "sizes": {
-          "4": {
+        "sizes": [
+          {
+            "size": "",
             "id": ""
           },
-          "5": {
+          {
+            "size": "",
             "id": ""
           },
-          "6": {
+          {
+            "size": "",
             "id": ""
           },
-          "7": {
+          {
+            "size": "",
             "id": ""
           },
-          "8": {
+          {
+            "size": "",
             "id": ""
           },
-          "9": {
+          {
+            "size": "",
             "id": ""
           },
-          "10": {
+          {
+            "size": "",
+            "id": ""
+          },
+          {
+            "size": "",
             "id": ""
           }
-        }
+        ]
       },
       {
         "index": 1,
@@ -255,29 +312,40 @@
         "color": "",
         "displayColorName": "",
         "images": [],
-        "sizes": {
-          "4": {
+        "sizes": [
+          {
+            "size": "",
             "id": ""
           },
-          "5": {
+          {
+            "size": "",
             "id": ""
           },
-          "6": {
+          {
+            "size": "",
             "id": ""
           },
-          "7": {
+          {
+            "size": "",
             "id": ""
           },
-          "8": {
+          {
+            "size": "",
             "id": ""
           },
-          "9": {
+          {
+            "size": "",
             "id": ""
           },
-          "10": {
+          {
+            "size": "",
+            "id": ""
+          },
+          {
+            "size": "",
             "id": ""
           }
-        }
+        ]
       },
       {
         "index": 1,
@@ -382,29 +450,40 @@
         "color": "",
         "displayColorName": "",
         "images": [],
-        "sizes": {
-          "4": {
+        "sizes": [
+          {
+            "size": "",
             "id": ""
           },
-          "5": {
+          {
+            "size": "",
             "id": ""
           },
-          "6": {
+          {
+            "size": "",
             "id": ""
           },
-          "7": {
+          {
+            "size": "",
             "id": ""
           },
-          "8": {
+          {
+            "size": "",
             "id": ""
           },
-          "9": {
+          {
+            "size": "",
             "id": ""
           },
-          "10": {
+          {
+            "size": "",
+            "id": ""
+          },
+          {
+            "size": "",
             "id": ""
           }
-        }
+        ]
       },
       {
         "index": 1,
@@ -509,29 +588,40 @@
         "color": "",
         "displayColorName": "",
         "images": [],
-        "sizes": {
-          "4": {
+        "sizes": [
+          {
+            "size": "",
             "id": ""
           },
-          "5": {
+          {
+            "size": "",
             "id": ""
           },
-          "6": {
+          {
+            "size": "",
             "id": ""
           },
-          "7": {
+          {
+            "size": "",
             "id": ""
           },
-          "8": {
+          {
+            "size": "",
             "id": ""
           },
-          "9": {
+          {
+            "size": "",
             "id": ""
           },
-          "10": {
+          {
+            "size": "",
+            "id": ""
+          },
+          {
+            "size": "",
             "id": ""
           }
-        }
+        ]
       },
       {
         "index": 1,
