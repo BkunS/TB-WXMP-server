@@ -4,11 +4,13 @@
   "description": "Mock server for TB WeChat MiniProgram",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "NODE_ENV=production node app.js",
     "dev": "nodemon app.js",
+    "qa": "node app.js",
     "lint": "./node_modules/.bin/eslint . --ext .js",
     "test": "mocha ./tests/**/*.test.js",
-    "precommit": "npm run lint && npm run test"
+    "precommit": "npm run lint && npm run test",
+    "deploy-app": "rm Dockerfile deployment.yaml cloudbuild.yaml && gcloud app deploy"
   },
   "repository": {
     "type": "git",

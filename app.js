@@ -16,6 +16,8 @@ const path = require('path');
  
 const app = express();
 
+let port = process.env.NODE_ENV === 'production' ? 8080 : 10010;
+
 openapi.initialize({
   app,
   apiDoc: apiDoc,
@@ -41,4 +43,5 @@ openapi.initialize({
   ]
 });
  
-app.listen(10010);
+app.listen(port);
+console.log(`Listening on port: ${port}`);
