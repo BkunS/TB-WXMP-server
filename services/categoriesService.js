@@ -2,14 +2,14 @@
 
 const Promise = require('bluebird');
 const _ = require('lodash');
-const mainCategories = require('../dao/mainCategories');
+const categoriesList = require('../dao/categoriesList');
 const categories = require('../dao/categories');
 const errors = require('../helpers/errors');
 const NotFoundError = errors.NotFoundError;
 
 const categoriesService = {
-  getMainCategories: () => {
-    return Promise.resolve(mainCategories);
+  getCategoriesList: () => {
+    return Promise.resolve(categoriesList);
   },
 
   getCategories: () => {

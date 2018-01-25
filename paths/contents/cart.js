@@ -14,14 +14,14 @@ const pdpContentsPath = (contentsService) => {
   };
  
   GET.apiDoc = {
-    summary: 'Returns content for pdp page.',
-    operationId: 'getPdpContents',
+    summary: 'Returns content for cart page.',
+    operationId: 'getCartContents',
     parameters: [],
     responses: {
       200: {
-        description: 'Content for pdp page.',
+        description: 'Content for cart page.',
         schema: {
-          $ref: '#/definitions/PdpContent'
+          $ref: '#/definitions/PageContents'
         }
       },
       default: {

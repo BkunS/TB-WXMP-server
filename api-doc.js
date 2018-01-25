@@ -60,6 +60,17 @@ const apiDoc = {
         }
       }
     },
+    Cred: {
+      type: 'object',
+      properties: {
+        openid: {
+          type: 'string'
+        },
+        appId: {
+          type: 'string'
+        }
+      }
+    },
     Error: {
       type: 'object',
       properties: {

@@ -21,7 +21,7 @@ const pdpContentsPath = (contentsService) => {
       200: {
         description: 'Content for pdp page.',
         schema: {
-          $ref: '#/definitions/PdpContent'
+          $ref: '#/definitions/PageContents'
         }
       },
       default: {

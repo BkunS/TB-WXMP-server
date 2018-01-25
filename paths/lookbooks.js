@@ -2,9 +2,9 @@
 
 const errorResponse = require('../helpers/errors').errorResponse;
 
-const categoriesPath = (categoriesService) => {
+const lookbooksPath = (lookbooksService) => {
   const GET = (req, res) => {
-    categoriesService.getCategoriesList()
+    lookbooksService.getLookbooksList()
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -14,14 +14,14 @@ const categoriesPath = (categoriesService) => {
   };
  
   GET.apiDoc = {
-    summary: 'Returns category lists.',
-    operationId: 'getCategories',
+    summary: 'Returns lookbook lists.',
+    operationId: 'getLookbooks',
     parameters: [],
     responses: {
       200: {
-        description: 'The list of categories.',
+        description: 'The list of lookbooks.',
         schema: {
-          $ref: '#/definitions/Categories'
+          $ref: '#/definitions/Lookbooks'
         }
       },
       default: {
@@ -41,4 +41,4 @@ const categoriesPath = (categoriesService) => {
   return operations;
 };
 
-module.exports = categoriesPath;
+module.exports = lookbooksPath;

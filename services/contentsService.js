@@ -23,9 +23,27 @@ const contentsService = {
     return Promise.resolve(cartPage);
   },
 
+  getCheckoutContents: () => {
+    const { checkoutPage } = contents;
+    return Promise.resolve(checkoutPage);
+  },
+
+  getLookbookContentsById: (id) => {
+    const { lookbooksPage } = contents;
+    let ret = _.get(lookbooksPage, id);
+
+    if (!ret) {
+      return Promise.reject(
+        new NotFoundError(`Cannot find contents by lookbookId: ${id}`)
+      );
+    } else {
+      return Promise.resolve(ret);
+    }
+  },
+
   getCategoryContentsById: (id) => {
-    const { categories } = contents;
-    let ret = _.get(categories, id);
+    const { categoriesPage } = contents;
+    let ret = _.get(categoriesPage, id);
 
     if (!ret) {
       return Promise.reject(

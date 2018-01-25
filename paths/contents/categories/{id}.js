@@ -1,9 +1,9 @@
 'use strict';
 
 const _ = require('lodash');
-const errorResponse = require('../../helpers/errors').errorResponse;
+const errorResponse = require('../../../helpers/errors').errorResponse;
 
-const categoryContentsPath = (contentsService) => {
+const categoryContentsByIdPath = (contentsService) => {
   const GET = (req, res) => {
     const id = _.get(req, 'params.id');
     contentsService.getCategoryContentsById(id)
@@ -29,7 +29,7 @@ const categoryContentsPath = (contentsService) => {
     ],
     responses: {
       200: {
-        description: 'Content for landingp page.',
+        description: 'Content for landing page.',
         schema: {
           $ref: '#/definitions/CategoryContent'
         }
@@ -51,4 +51,4 @@ const categoryContentsPath = (contentsService) => {
   return operations;
 };
 
-module.exports = categoryContentsPath;
+module.exports = categoryContentsByIdPath;

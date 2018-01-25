@@ -12,7 +12,7 @@
       }
     ]
   },
-  "categories": {
+  "categoriesPage": {
     "Aw0HDg0OAQEHDQgOBAACBQ": {
       "name": "clothing",
       "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
@@ -54,6 +54,17 @@
     "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png"
   },
   "cartPage": {
-    "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png"
+    "globalMsg": ""
+  },
+  "checkoutPage": {
+    "globalMsg": ""
+  },
+  "lookbooksPage": {
+    "BAYIDgYMCAkNDgIOBAcMAA": {
+      "name": "",
+      "landingContents": "",
+      "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
+    }
   }
+
 }

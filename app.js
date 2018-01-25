@@ -3,10 +3,12 @@
 const express = require('express');
 const openapi = require('express-openapi');
 const bodyParser = require('body-parser');
+const authService = require('./services/authService');
 const categoriesService = require('./services/categoriesService');
 const cartsService = require('./services/cartsService');
-const inventoriesService = require('./services/inventoriesService');
 const contentsService = require('./services/contentsService');
+const inventoriesService = require('./services/inventoriesService');
+const lookbooksService = require('./services/lookbooksService');
 const productsService = require('./services/productsService');
 const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
@@ -25,10 +27,12 @@ openapi.initialize({
     console.error(JSON.stringify(err, null, 2));
   },
   dependencies: {
+    authService: authService,
     categoriesService: categoriesService,
     cartsService: cartsService,
-    inventoriesService: inventoriesService,
     contentsService: contentsService,
+    inventoriesService: inventoriesService,
+    lookbooksService: lookbooksService,
     productsService: productsService,
     wishlistsService: wishlistsService
   },

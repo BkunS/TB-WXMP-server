@@ -1,6 +1,7 @@
 [
   {
     "masterId": "CQAGDw4KCgoMCQQKBAcDBg",
+    "styleId": "",
     "name": "Minnie Travel Ballet flat, Leather",
     "displayName": "Minnie Travel 芭蕾平底鞋",
     "category": "shoes",
@@ -152,27 +153,96 @@
     "priceRange": [1799],
     "salePriceRange": [1799],
     "images": [
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403?$mainline_pdp_desktop$", 
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403_B?$mainline_pdp_desktop$",
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403_E?$mainline_pdp_desktop$",
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403_C?$mainline_pdp_desktop$",
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403_D?$mainline_pdp_desktop$",
-      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_45620_403_J?$mainline_pdp_desktop$"
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_B?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_D?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_F?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_G?$mainline_pdp_desktop$"
     ],
     "description": "这款生机勃勃的 Tory Burch 芭蕾舞平底鞋的鞋面饰有圆牌。可折叠橡胶鞋底方便收纳。带衬垫内底。",
     "descriptionList": ["皮质: 绵羊皮。", "从越南进口。"]
   },
   {
+    "masterId": "AQcCCQALDQ0KBw8PBA0OCw",
+    "styleId": "47150",
+    "name": "Stella Dress",
+    "displayName": "STELLA 长裙",
+    "category": "clothing",
+    "categoryId": "Aw0HDg0OAQEHDQgOBAACBQ",
+    "variations": [
+      {
+        "index": 0,
+        "color": "red",
+        "colorHex": "#fb4d30",
+        "colorName": "红色",
+        "images": [
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_A?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_B?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_E?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_C?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$"
+        ],
+        "sizes": [
+          {
+            "size": "0",
+            "id": "BAcADwYLAgENBgIEBAIEAA"
+          },
+          {
+            "size": "2",
+            "id": "BQcNBQgJBwgHAA4NBAoFDQ"
+          },
+          {
+            "size": "4",
+            "id": "BgQBDAgNDAwACwUCBAgHCQ"
+          },
+          {
+            "size": "6",
+            "id": "CwIKBwIEDg4MBQgPBAALDA"
+          },
+          {
+            "size": "8",
+            "id": "DQgIBg4DBQMEBAoMBAQGBQ"
+          },
+          {
+            "size": "10",
+            "id": "DwwMAAIIAAwCBQkEBAkIBA"
+          },
+          {
+            "size": "12",
+            "id": "DwgIAwMKDgQLAwUMBA0GBg"
+          },
+          {
+            "size": "14",
+            "id": "CAIFAwkPDwkKAQkHBA8ADQ"
+          }
+        ]
+      }
+    ],
+    "priceRange": [4210],
+    "salePriceRange": [4210],
+    "images": [
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_A?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_B?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_E?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_C?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$"
+    ],
+    "description": "一款有新年气氛，并能完美衬托气质的红色连衣裙总能让人眼前一亮，将富有浪漫气息的荷叶边、灯笼袖、蝴蝶结或珠宝点缀于裙面，带你摆脱平日单调，完美演绎优雅的迷人魅力。",
+    "descriptionList": ["", ""]
+  },
+  {
     "masterId": "",
+    "styleId": "",
     "name": "",
-    "displayColorName": "",
+    "displayName": "",
     "category": "",
     "categoryId": "",
     "variations": [
       {
         "index": 0,
         "color": "",
-        "displayColorName": "",
+        "colorHex": "",
+        "colorName": "",
         "images": [],
         "sizes": [
           {
@@ -212,105 +282,8 @@
       {
         "index": 1,
         "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
-        "color": "",
-        "displayColorName": "",
+        "colorHex": "",
+        "colorName": "",
         "images": [],
         "sizes": [
           {
@@ -348,107 +321,10 @@
         ]
       },
       {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
         "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
         "color": "",
-        "displayColorName": "",
+        "colorHex": "",
+        "colorName": "",
         "images": [],
         "sizes": [
           {
@@ -484,614 +360,11 @@
             "id": ""
           }
         ]
-      },
-      {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
       }
     ],
     "priceRange": [],
     "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": [
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          },
-          {
-            "size": "",
-            "id": ""
-          }
-        ]
-      },
-      {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": ""
-          },
-          "6": {
-            "id": ""
-          },
-          "7": {
-            "id": ""
-          },
-          "8": {
-            "id": ""
-          },
-          "9": {
-            "id": ""
-          },
-          "10": {
-            "id": ""
-          }
-        }
-      },
-      {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": ""
-          },
-          "6": {
-            "id": ""
-          },
-          "7": {
-            "id": ""
-          },
-          "8": {
-            "id": ""
-          },
-          "9": {
-            "id": ""
-          },
-          "10": {
-            "id": ""
-          }
-        }
-      },
-      {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
-    "description": "",
-    "descriptionList": ["", ""]
-  },
-  {
-    "masterId": "",
-    "name": "",
-    "displayColorName": "",
-    "category": "",
-    "categoryId": "",
-    "variations": [
-      {
-        "index": 0,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": ""
-          },
-          "6": {
-            "id": ""
-          },
-          "7": {
-            "id": ""
-          },
-          "8": {
-            "id": ""
-          },
-          "9": {
-            "id": ""
-          },
-          "10": {
-            "id": ""
-          }
-        }
-      },
-      {
-        "index": 1,
-        "color": "",
-        "displayColorName": "",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": ""
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      },
-      {
-        "index": 2,
-        "color": "grey",
-        "displayColorName": "灰色",
-        "images": [],
-        "sizes": {
-          "4": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "5": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "6": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "7": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "8": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "9": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          },
-          "10": {
-            "id": "",
-            "price": 0,
-            "salePrice": 0
-          }
-        }
-      }
-    ],
-    "priceRange": [],
-    "salePriceRange": [],
-    "images": ["", ""],
+    "images": [],
     "description": "",
     "descriptionList": ["", ""]
   }

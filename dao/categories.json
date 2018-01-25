@@ -27,8 +27,9 @@
         "id": "CQAGDw4KCgoMCQQKBAcDBg",
         "displayName": "Minnie Travel 芭蕾平底鞋",
         "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001?$mainline_grid_mobile$",
-        "price": "",
-        "salePrice": "￥1930"
+        "currency": "￥",
+        "price": 1930,
+        "salePrice": 1930
       }
     ]
   },

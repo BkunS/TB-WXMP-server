@@ -1,0 +1,26 @@
+[
+  {
+    "id": "BAYIDgYMCAkNDgIOBAcMAA",
+    "contents": {
+      "landingImage": ""
+    },
+    "masterProducts": [
+      {
+        "id": "AQcCCQALDQ0KBw8PBA0OCw",
+        "displayName": "STELLA 长裙",
+        "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$",
+        "currency": "￥",
+        "price": 4210,
+        "salePrice": 4210
+      },
+      {
+        "id": "",
+        "displayName": "",
+        "image": "",
+        "currency": "￥",
+        "price": 0,
+        "salePrice": 0
+      }
+    ]
+  }
+]

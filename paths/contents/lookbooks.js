@@ -1,10 +1,10 @@
 'use strict';
 
-const errorResponse = require('../helpers/errors').errorResponse;
+const errorResponse = require('../../helpers/errors').errorResponse;
 
-const categoriesPath = (categoriesService) => {
+const lookbookContentsPath = (contentsService) => {
   const GET = (req, res) => {
-    categoriesService.getCategoriesList()
+    contentsService.getLookbookContents()
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -14,14 +14,14 @@ const categoriesPath = (categoriesService) => {
   };
  
   GET.apiDoc = {
-    summary: 'Returns category lists.',
-    operationId: 'getCategories',
+    summary: 'Returns content for lookbook page.',
+    operationId: 'getLookbookContents',
     parameters: [],
     responses: {
       200: {
-        description: 'The list of categories.',
+        description: 'Content for lookbook page.',
         schema: {
-          $ref: '#/definitions/Categories'
+          $ref: '#/definitions/PageContents'
         }
       },
       default: {
@@ -41,4 +41,4 @@ const categoriesPath = (categoriesService) => {
   return operations;
 };
 
-module.exports = categoriesPath;
+module.exports = lookbookContentsPath;

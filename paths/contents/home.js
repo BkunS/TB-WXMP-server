@@ -21,7 +21,7 @@ const homeContentsPath = (contentsService) => {
       200: {
         description: 'Content for home page.',
         schema: {
-          $ref: '#/definitions/HomeContent'
+          $ref: '#/definitions/PageContents'
         }
       },
       default: {
