@@ -1,13 +1,13 @@
 'use strict';
 
 const _ = require('lodash');
-const errorResponse = require('../helpers/errors').errorResponse;
+const errorResponse = require('../../helpers/errors').errorResponse;
 
-const authPath = (authService) => {
+const paymentAuthPath = (authService) => {
   const POST = (req, res) => {
     const data = _.get(req, 'body', {});
     
-    authService.postCreds(data)
+    authService.postPaymentAuth(data)
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -17,8 +17,8 @@ const authPath = (authService) => {
   };
  
   POST.apiDoc = {
-    summary: 'Returns credentials.',
-    operationId: 'postCreds',
+    summary: 'Returns payment auth.',
+    operationId: 'login',
     parameters: [
       {
         in: 'body',
@@ -32,9 +32,9 @@ const authPath = (authService) => {
     ],
     responses: {
       200: {
-        description: 'New credentials.',
+        description: 'New payment auth.',
         schema: {
-          $ref: '#/definitions/Cred'
+          $ref: '#/definitions/PaymentAuth'
         }
       },
       default: {
@@ -54,4 +54,4 @@ const authPath = (authService) => {
   return operations;
 };
 
-module.exports = authPath;
+module.exports = paymentAuthPath;

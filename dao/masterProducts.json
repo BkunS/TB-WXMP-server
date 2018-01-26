@@ -160,7 +160,7 @@
       "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001_G?$mainline_pdp_desktop$"
     ],
     "description": "这款生机勃勃的 Tory Burch 芭蕾舞平底鞋的鞋面饰有圆牌。可折叠橡胶鞋底方便收纳。带衬垫内底。",
-    "descriptionList": ["皮质: 绵羊皮。", "从越南进口。"]
+    "descriptionList": ["皮质: 绵羊皮。", "越南进口。"]
   },
   {
     "masterId": "AQcCCQALDQ0KBw8PBA0OCw",
@@ -228,7 +228,49 @@
       "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$"
     ],
     "description": "一款有新年气氛，并能完美衬托气质的红色连衣裙总能让人眼前一亮，将富有浪漫气息的荷叶边、灯笼袖、蝴蝶结或珠宝点缀于裙面，带你摆脱平日单调，完美演绎优雅的迷人魅力。",
-    "descriptionList": ["", ""]
+    "descriptionList": []
+  },
+  {
+    "masterId": "BwMFDQwOAAEOBgAEBA4ICw",
+    "styleId": "46123",
+    "name": "Juliette Metallic Mini Top-Handle Satchel",
+    "displayName": "Juliette Metallic Mini Top-Handle Satchel",
+    "category": "handbags",
+    "categoryId": "CwwLCQILDAkFAgQABA4BDw",
+    "variations": [
+      {
+        "index": 0,
+        "color": "silver",
+        "colorHex": "#f0f0ee",
+        "colorName": "银色",
+        "images": [
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_B?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_D?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_E?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_K?$mainline_pdp_desktop$",
+          "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_L?$mainline_pdp_desktop$"
+        ],
+        "sizes": [
+          {
+            "size": "none",
+            "id": "DQ4ABwUBBAgGDAYHBAoJAg"
+          }
+        ]
+      }
+    ],
+    "priceRange": [3785],
+    "salePriceRange": [3785],
+    "images": [
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_B?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_D?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_E?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_K?$mainline_pdp_desktop$",
+      "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040_L?$mainline_pdp_desktop$"
+    ],
+    "description": "",
+    "descriptionList": []
   },
   {
     "masterId": "",

@@ -8,5 +8,5 @@ resources:
   memory_gb: 0.5
   disk_size_gb: 10
 network:
-  instance_tag: WXMP-mock-server
+  instance_tag: wxmp-mock-server
   name: default

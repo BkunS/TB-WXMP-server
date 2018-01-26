@@ -9,6 +9,9 @@
   "wechat": {
     "appId": "wx50ff3182db81edb6",
     "appSecret": "6e4b170d7646b16f338f2624d0c2163b",
-    "baseUrl": "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential"
+    "accessTokenBaseUrl": "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential",
+    "mchId": "",
+    "tradeIype": "JSAPI",
+    "paymentAuthUrl": "https://api.mch.weixin.qq.com/pay/unifiedorder"
   }
 }

@@ -10,7 +10,7 @@
     "lint": "./node_modules/.bin/eslint . --ext .js",
     "test": "mocha ./tests/**/*.test.js",
     "precommit": "npm run lint && npm run test",
-    "deploy-app": "rm Dockerfile deployment.yaml cloudbuild.yaml && gcloud app deploy --project digital-innovation-180520"
+    "deploy-app": "rm -f Dockerfile deployment.yaml cloudbuild.yaml && gcloud app deploy --project digital-innovation-180520"
   },
   "repository": {
     "type": "git",
