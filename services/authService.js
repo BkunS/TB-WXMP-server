@@ -13,7 +13,7 @@ const authService = {
 
     const options = {
       method: 'GET',
-      url: `accessTokenBaseUrl&appid=${appId}&secret=${appSecret}`,
+      url: `${accessTokenBaseUrl}&appid=${appId}&secret=${appSecret}`,
       headers: {
         'Content-Type': 'application/json'
       },
