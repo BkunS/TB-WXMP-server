@@ -3,12 +3,14 @@
 const express = require('express');
 const openapi = require('express-openapi');
 const bodyParser = require('body-parser');
+const _ = require('lodash');
 const authService = require('./services/authService');
 const categoriesService = require('./services/categoriesService');
 const cartsService = require('./services/cartsService');
 const contentsService = require('./services/contentsService');
 const inventoriesService = require('./services/inventoriesService');
 const lookbooksService = require('./services/lookbooksService');
+const ordersService = require('./services/ordersService');
 const productsService = require('./services/productsService');
 const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
@@ -26,7 +28,17 @@ openapi.initialize({
     'text/text': bodyParser.text()
   },
   errorMiddleware: (err, req, res, next) => {
-    console.error(JSON.stringify(err, null, 2));
+    if (err) {
+      console.error(JSON.stringify(err, null, 2));
+      const status = _.get(err, 'status', 500);
+      const resBody = {
+        name: 'General Error',
+        message: _.get(err, 'errors[0].message')
+      };
+      res.status(status).json(resBody);
+    } else {
+      next();
+    }
   },
   dependencies: {
     authService: authService,
@@ -35,6 +47,7 @@ openapi.initialize({
     contentsService: contentsService,
     inventoriesService: inventoriesService,
     lookbooksService: lookbooksService,
+    ordersService: ordersService,
     productsService: productsService,
     wishlistsService: wishlistsService
   },

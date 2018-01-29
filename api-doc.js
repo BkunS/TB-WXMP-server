@@ -60,6 +60,23 @@ const apiDoc = {
         }
       }
     },
+    Order: {
+      type: 'object',
+      properties: {
+        userId: {
+          type: 'string'
+        },
+        image: {
+          type: 'string'
+        },
+        shippingPrice: {
+          type: 'number'
+        },
+        totalPrice: {
+          type: 'number'
+        }
+      }
+    },
     Cred: {
       type: 'object',
       properties: {
