@@ -15,43 +15,37 @@
   "categoriesPage": {
     "Aw0HDg0OAQEHDQgOBAACBQ": {
       "name": "clothing",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "https://storage.googleapis.com/wx-tb-store/editorial-content/clothingLandingContents.png",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     },
     "CwwLCQILDAkFAgQABA4BDw": {
       "name": "handbags",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     },
     "DgUACwIDAgsHAAYPBAQMAA": {
       "name": "shoes",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "https://storage.googleapis.com/wx-tb-store/editorial-content/shoesLandingContents.png",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     },
     "BQQPDA8CAwkNCAIJBAANAQ": {
       "name": "accessories",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     },
     "DgsGAQELCQQDBA0HBAQFDQ": {
       "name": "jeleries",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     },
     "Cg0MCwIEAg8PDQ4CBAsLCA": {
       "name": "shoulderBags",
-      "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png",
       "landingContents": "",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     }
   },
   "pdpPage": {
-    "globalMsg": "https://storage.googleapis.com/wx-tb-store/editorial-content/freeShippingGlobalMsg.png"
+    
   },
   "cartPage": {
     "globalMsg": ""
