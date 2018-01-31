@@ -1,3 +1,38 @@
 [
-  
+  {
+    "userId": "QUoXQrKHjRraNqka5NyhfjocxnGBgDuZFPMWU2JSHkZykf0vYlPmWdGuicvqkWObEIXCEPX2zoFsAZ2cFdBPjWg",
+    "shipment": {
+      "name": "张三",
+      "address": "新港中路397号，广州市, 广东省，海珠区",
+      "postal": "510000",
+      "tel": "020-81167888"
+    },
+    "products": [
+      {
+        "productId": "CwIKBwIEDg4MBQgPBAALDA",
+        "quantity": 1,
+        "displayName": "STELLA 长裙",
+        "price": 4210,
+        "salePrice": 4210
+      },
+      {
+        "productId": "DQ4ABwUBBAgGDAYHBAoJAg",
+        "quantity": 1,
+        "displayName": "Juliette Metallic Mini Top-Handle Satchel",
+        "price": 3785,
+        "salePrice": 3785
+      }
+    ],
+    "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$",
+    "shippingPrice": 0,
+    "totalPrice": 7995,
+    "finalPrice": 7995,
+    "status": "created",
+    "payment": {
+      "type": "payUponDelivery",
+      "paid": false
+    },
+    "placeTime": "2018-01-31T20:30:30.671Z",
+    "id": "GCFqlPsscZt3ZYnaZrRTD6"
+  }
 ]
