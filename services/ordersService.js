@@ -9,23 +9,28 @@ const errors = require('../helpers/errors');
 
 const NotFoundError = errors.NotFoundError;
 const StorageError = errors.StorageError;
+const BadRequestError = errors.StorageError;
 
 const dataPath = path.join(__dirname, '../dao', 'orders.json');
 const productsService = {
   postOrder: (data) => {
+    if (_.isEmpty(data)) {
+      return Promise.reject(new BadRequestError(`Error while creating new order: Invalid request body.`));
+    }
     const id = generateId();
     const order = {};
     _.assign(order, data, {id});
 
-    fs.readFile(dataPath, 'utf8', (err, orders) => {
-      if (err) {
-        console.error(err);
-        return Promise.reject(new StorageError(`Unable to read orders data from database.`));
-      }
+    return new Promise((resolve, reject) => {
+      fs.readFile(dataPath, 'utf8', (err, orders) => {
+        if (err) {
+          console.error(err);
+          reject(new StorageError(`Unable to read orders data from database.`));
+        }
 
-      orders.push(order);
+        orders = JSON.parse(orders);
+        orders.push(order);
 
-      return new Promise((resolve, reject) => {
         fs.writeFile(path.join(__dirname, '../dao', 'orders.json'), JSON.stringify(orders, null, 2), 'utf8', (err) => {
           if (err) {
             console.error(err);
@@ -74,31 +79,33 @@ const productsService = {
   },
 
   putOrderById: (id, data) => {
-    fs.readFile(dataPath, 'utf8', (err, orders) => {
-      if (err) {
-        console.error(err);
-        return Promise.reject(new StorageError(`Unable to read orders data from database.`));
-      }
-      
-      orders = JSON.parse(orders);
-      let index = _.findIndex(orders, { 'id': id });
+    if (_.isEmpty(data)) {
+      return Promise.reject(new BadRequestError(`Error while creating new order: Invalid request body.`));
+    }
 
-      if (index < 0) {
-        return Promise.reject(
-          new NotFoundError(`Erro while updating order: No order of id: '${id}' has been found.`)
-        );
-      }
+    return new Promise((resolve, reject) => {
+      fs.readFile(dataPath, 'utf8', (err, orders) => {
+        if (err) {
+          console.error(err);
+          reject(new StorageError(`Unable to read orders data from database.`));
+        }
+        
+        orders = JSON.parse(orders);
+        let index = _.findIndex(orders, { 'id': id });
 
-      let order = orders[index];
-      data = _.pick(data, ['shipment', 'shippingPrice', 'totalPrice', 'status', 'tracking', 'image']);
-      const shippingPrice = _.get(data, 'shippingPrice') ? +_.get(data, 'shippingPrice') : _.get(order, 'shippingPrice');
-      const totalPrice = _.get(data, 'totalPrice') ? +_.get(data, 'totalPrice') : _.get(order, 'totalPrice');
+        if (index < 0) {
+          reject(new NotFoundError(`Erro while updating order: No order of id: '${id}' has been found.`));
+        }
 
-      _.set(data, 'finalPrice', shippingPrice + totalPrice);
-      _.merge(order, data);
-      orders[index] = order;
+        let order = orders[index];
+        data = _.pick(data, ['shipment', 'shippingPrice', 'totalPrice', 'status', 'tracking', 'image']);
+        const shippingPrice = _.get(data, 'shippingPrice') ? +_.get(data, 'shippingPrice') : _.get(order, 'shippingPrice');
+        const totalPrice = _.get(data, 'totalPrice') ? +_.get(data, 'totalPrice') : _.get(order, 'totalPrice');
 
-      return new Promise((resolve, reject) => {
+        _.set(data, 'finalPrice', shippingPrice + totalPrice);
+        _.merge(order, data);
+        orders[index] = order;
+
         fs.writeFile(dataPath, JSON.stringify(orders, null, 2), 'utf8', (err) => {
           if (err) {
             console.error(err);
@@ -110,6 +117,7 @@ const productsService = {
         });
       });
     });
+    
   },
 
   deleteOrders: () => {
