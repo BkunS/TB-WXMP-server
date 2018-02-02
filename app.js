@@ -12,6 +12,7 @@ const inventoriesService = require('./services/inventoriesService');
 const lookbooksService = require('./services/lookbooksService');
 const ordersService = require('./services/ordersService');
 const productsService = require('./services/productsService');
+const storesService = require('./services/storesService');
 const wishlistsService = require('./services/wishlistsService');
 const apiDoc = require('./api-doc');
 const path = require('path');
@@ -49,6 +50,7 @@ openapi.initialize({
     lookbooksService: lookbooksService,
     ordersService: ordersService,
     productsService: productsService,
+    storesService: storesService,
     wishlistsService: wishlistsService
   },
   paths: [

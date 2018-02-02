@@ -1,0 +1,50 @@
+[
+  {
+    "id": "AwwMCwcKCwYGBAYHBAYPBA",
+    "name": "上海嘉里中心商场",
+    "address1": "南京西路1515号",
+    "address2": "嘉里中心商场一层E1-02，E2-02",
+    "district": "静安区",
+    "city": "上海市",
+    "province": "",
+    "tel": "+86 021 6381 8683",
+    "postalCode": "200041",
+    "businessHour": "周一至周日：10:00-22:00"
+  },
+  {
+    "id": "DgwDBwABAwsIAwUMBAIDDA",
+    "name": "上海港汇广场",
+    "address1": "虹桥路1号",
+    "address2": "港汇广场一层143 A/B铺位",
+    "district": "徐汇区",
+    "city": "上海市",
+    "province": "",
+    "tel": "+86 021 6422 8208",
+    "postalCode": "200030",
+    "businessHour": "周一至周日：10:00-22:00"
+  },
+  {
+    "id": "BgMMDgwFDQIJAAoOBAQDAw",
+    "name": "重庆国际金融中心",
+    "address1": "城北大街38号",
+    "address2": "国金中心第三层L325号商铺",
+    "district": "江北区",
+    "city": "重庆市",
+    "province": "",
+    "tel": "+86 023 6765 5687",
+    "postalCode": "405201",
+    "businessHour": "周一至周日：10:00-22:00"
+  },
+  {
+    "id": "BggGDAEHAAkKAwIPBAQICA",
+    "name": "厦门磐基名品中心",
+    "address1": "嘉禾路199号",
+    "address2": "磐基名品中心1层, 121+122号商铺",
+    "district": "思明区",
+    "city": "厦门",
+    "province": "福建省",
+    "tel": "+86 592 525 5380",
+    "postalCode": "405201",
+    "businessHour": "周一至周日：10:00-22:00"
+  }
+]

@@ -11,7 +11,6 @@ const NotFoundError = errors.NotFoundError;
 const StorageError = errors.StorageError;
 
 const dataPath = path.join(__dirname, '../dao', 'orders.json');
-
 const productsService = {
   postOrder: (data) => {
     const id = generateId();
@@ -25,12 +24,14 @@ const productsService = {
       }
 
       orders.push(order);
+
       return new Promise((resolve, reject) => {
         fs.writeFile(path.join(__dirname, '../dao', 'orders.json'), JSON.stringify(orders, null, 2), 'utf8', (err) => {
           if (err) {
             console.error(err);
             reject(new StorageError(`Unable to store new order to database: ${err}.`));
           }
+
           console.log(`Order: ${id} saved!`);
           resolve(order);
         });
@@ -39,33 +40,36 @@ const productsService = {
   },
 
   getOrdersByUserId: (userId) => {
-    fs.readFile(dataPath, 'utf8', (err, data) => {
-      if (err) {
-        console.error(err);
-        return Promise.reject(new StorageError(`Unable to read orders data from database.`));
-      }
+    return new Promise((resolve, reject) => {
+      fs.readFile(dataPath, 'utf8', (err, data) => {
+        if (err) {
+          reject(new StorageError(`Unable to read orders data from database.`));
+        }
 
-      return Promise.resolve(
-        _.filter(JSON.parse(data), { 'userId': userId })
-      );
+        const orders = _.filter(JSON.parse(data), { 'userId': userId });
+        resolve(orders);
+      });
     });
   },
 
   getOrderById: (id) => {
-    fs.readFile(dataPath, 'utf8', (err, data) => {
-      if (err) {
-        console.error(err);
-        return Promise.reject(new StorageError(`Unable to read orders data from database.`));
-      }
-      
-      let ret = _.find(JSON.parse(data), { 'id': id });
-      if (!ret) {
-        return Promise.reject(
-          new NotFoundError(`Error while retrieving order: No order of id: '${id}' has been found.`)
-        );
-      } else {
-        return Promise.resolve(ret);
-      }
+    return new Promise((resolve, reject) => {
+      fs.readFile(dataPath, 'utf8', (err, data) => {
+        if (err) {
+          console.error(err);
+          reject(new StorageError(`Unable to read orders data from database.`));
+        }
+        
+        let ret = _.find(JSON.parse(data), { 'id': id });
+
+        if (!ret) {
+          reject(new NotFoundError(
+            `Error while retrieving order: No order of id: '${id}' has been found.`
+          ));
+        } else {
+          resolve(ret);
+        }
+      });
     });
   },
 
@@ -100,6 +104,7 @@ const productsService = {
             console.error(err);
             reject(new StorageError(`Unable to update order to database: ${err}.`));
           } 
+          
           console.log(`Order: ${id} updated!`);
           resolve(order);
         });
