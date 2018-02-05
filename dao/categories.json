@@ -5,7 +5,15 @@
     "displayName": "服饰",
     "images": [""],
     "masterProducts": [
-
+      {
+        "id": "AQcCCQALDQ0KBw8PBA0OCw",
+        "styleId": "47150",
+        "displayName": "STELLA 长裙",
+        "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_47150_600_D?$mainline_pdp_desktop$",
+        "currency": "￥",
+        "priceRange": [4210],
+        "salePriceRange": [4210]
+      }
     ]
   },
   {
@@ -14,7 +22,15 @@
     "displayName": "手袋",
     "images": [""],
     "masterProducts": [
-      
+      {
+        "id": "BwMFDQwOAAEOBgAEBA4ICw",
+        "styleId": "46123",
+        "displayName": "Juliette Metallic Mini Top-Handle Satchel",
+        "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_46123_040?$mainline_pdp_desktop$",
+        "currency": "￥",
+        "priceRange": [3785],
+        "salePriceRange": [3785],
+      }
     ]
   },
   {
@@ -25,11 +41,12 @@
     "masterProducts": [
       {
         "id": "CQAGDw4KCgoMCQQKBAcDBg",
+        "styleId": "51158251",
         "displayName": "Minnie Travel 芭蕾平底鞋",
         "image": "https://s7.toryburch.com/is/image/ToryBurchNA/TB_51158251_001?$mainline_grid_mobile$",
         "currency": "￥",
-        "price": 1930,
-        "salePrice": 1930
+        "priceRange": [1930],
+        "salePriceRange": [1930]
       }
     ]
   },
