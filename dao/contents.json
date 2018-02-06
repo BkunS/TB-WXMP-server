@@ -56,7 +56,7 @@
   "lookbooksPage": {
     "BAYIDgYMCAkNDgIOBAcMAA": {
       "name": "",
-      "landingContents": "",
+      "landingContents": "https://storage.googleapis.com/wx-tb-store/editorial-content/lookbookLanding.png",
       "filterAndSort": "https://storage.googleapis.com/wx-tb-store/editorial-content/filterAndSort.png"
     }
   }
