@@ -3,36 +3,36 @@
     "id": "Aw0HDg0OAQEHDQgOBAACBQ",
     "name": "clothing",
     "displayName": "服饰",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/clothCategory.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw03971b00/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_7_HPMobile_ClothingTile_3x2.jpg"
   },
   "2": {
     "id": "CwwLCQILDAkFAgQABA4BDw",
     "name": "handbags",
     "displayName": "手袋",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_6_HPMobile_TilesHandbags.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw8b84eaa4/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_8_HPMobile_HandbagsTile_3x.jpg"
   },
   "3": {
     "id": "DgUACwIDAgsHAAYPBAQMAA",
     "name": "shoes",
     "displayName": "女鞋",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_SAS17_12.26_7_HPDesktop_TilesShoes.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dwed84d747/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_9_HPMobile_ShoesTile_3x.jpg"
   },
   "4": {
     "id": "BQQPDA8CAwkNCAIJBAANAQ",
     "name": "accessories",
     "displayName": "配饰",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_8_HPMobile_TilesAccessories.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw107f54fa/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_10_HPMobile_AccessoriesTile_3x.jpg"
   },
   "5": {
     "id": "DgsGAQELCQQDBA0HBAQFDQ",
     "name": "jeleries",
     "displayName": "珠宝",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_SAS17_12.26_9_HPDesktop_TilesJewelry.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw80b9cf5e/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_11_HPMobile_JewelryTile_3x.jpg"
   },
   "6": {
     "id": "Cg0MCwIEAg8PDQ4CBAsLCA",
     "name": "shoulderBags",
     "displayName": "肩背包",
-    "image": "https://storage.googleapis.com/wx-tb-store/categories/TBUS_Resort18_1.9_10_HPMobile_TilesBags.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw724abe07/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_12_HPMobile_SwimTile_3x.jpg"
   }
 }

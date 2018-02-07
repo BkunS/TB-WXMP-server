@@ -8,8 +8,14 @@ const errors = require('../helpers/errors');
 const NotFoundError = errors.NotFoundError;
 
 const lookbooksService = {
-  getLookbooksList: () => {
-    return Promise.resolve(lookbooksList);
+  getLookbooksList: (local) => {
+    let ret = null;
+    if (local) {
+      ret = _.filter(lookbooksList, { 'local': true });
+    } else {
+      ret = _.filter(lookbooksList, { 'local': false });
+    }
+    return Promise.resolve(ret);
   },
 
   getLookbooks: () => {

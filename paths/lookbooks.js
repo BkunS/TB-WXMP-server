@@ -1,10 +1,12 @@
 'use strict';
 
+const _ = require('lodash');
 const errorResponse = require('../helpers/errors').errorResponse;
 
 const lookbooksPath = (lookbooksService) => {
   const GET = (req, res) => {
-    lookbooksService.getLookbooksList()
+    const local = _.get(req, 'query.local', false);
+    lookbooksService.getLookbooksList(local)
       .then((ret) => {
         res.status(200).json(ret);
       })
@@ -16,7 +18,15 @@ const lookbooksPath = (lookbooksService) => {
   GET.apiDoc = {
     summary: 'Returns lookbook lists.',
     operationId: 'getLookbooks',
-    parameters: [],
+    parameters: [
+      {
+        in: 'query',
+        name: 'local',
+        description: 'Request local content instead',
+        required: false,
+        type: 'boolean'
+      }
+    ],
     responses: {
       200: {
         description: 'The list of lookbooks.',
