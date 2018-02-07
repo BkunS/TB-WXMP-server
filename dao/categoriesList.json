@@ -19,9 +19,9 @@
   },
   "4": {
     "id": "BQQPDA8CAwkNCAIJBAANAQ",
-    "name": "accessories",
-    "displayName": "配饰",
-    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw107f54fa/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_10_HPMobile_AccessoriesTile_3x.jpg"
+    "name": "swims",
+    "displayName": "泳装",
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw724abe07/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_12_HPMobile_SwimTile_3x.jpg"
   },
   "5": {
     "id": "DgsGAQELCQQDBA0HBAQFDQ",
@@ -33,6 +33,6 @@
     "id": "Cg0MCwIEAg8PDQ4CBAsLCA",
     "name": "shoulderBags",
     "displayName": "肩背包",
-    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw724abe07/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_12_HPMobile_SwimTile_3x.jpg"
+    "image": "https://static.toryburch.com/static/on/demandware.static/-/Sites/default/dw107f54fa/slots/homepage/spring-2018/mobile/TBUS_Spring18_2.6_10_HPMobile_AccessoriesTile_3x.jpg"
   }
 }
