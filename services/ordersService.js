@@ -29,7 +29,7 @@ const productsService = {
         }
 
         orders = JSON.parse(orders);
-        orders.push(order);
+        orders.unshift(order);
 
         fs.writeFile(path.join(__dirname, '../dao', 'orders.json'), JSON.stringify(orders, null, 2), 'utf8', (err) => {
           if (err) {
